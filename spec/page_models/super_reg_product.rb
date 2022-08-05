@@ -1,0 +1,17 @@
+class RegSection < SitePrism::Section
+  element :test_player_bubble, "input", id: "persona_id_asdfasdb4"
+  element :gearup_page, "h2", id: "displayBodyHeader"  
+  element :sales_item_selection, "input", id: "form_result_2575484797875987069078907890"
+  element :legacy_sale_item, "input", id: "form_result_sillyxfoobar"
+  element :gender_selection, "input", id: "form_result_207448xxxxxxxxx68"
+  element :addon_container, "#pageContentContainer"
+  element :legacy_gender_selection, "input", id: "form_result_2ttttttttt"
+  element :legacy_review_continue, "div", style: "display: inline-block; text-align: left;" 
+  element :legacy_reg_validation, "div", class: "registration-insurance__body"
+  element :orphan_first_name, "input", id: "form_result_2adfadadsfranks"
+  element :orphan_last_name, "input", id: "form_result_2055555555556"
+  element :legacy_reg_orphan_first_name, "input", id: "form_result_2097555453453425234526349"
+  element :legacy_reg_orphan_last_name, "input", id: "form_result_209763234523452345234523451"
+  element :orphan_email, "input", id: "form_result_2074482234524352345234523459_email"
+  element :legacy_orphan_email, "input", id: "form_result_20972435234523452345234523452345234523456354_email"
+end
